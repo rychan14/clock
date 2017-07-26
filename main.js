@@ -29,4 +29,4 @@ function main() {
   secondHandAnimation.setAttribute("to", animateSecondsTo)
 }
 
-main()
+document.addEventListener('DOMContentLoaded', main)
