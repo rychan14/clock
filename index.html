@@ -1,0 +1,38 @@
+<body>
+  <svg viewBox="0 0 150 150">
+    <circle class="outerRim"
+            cx="50%"
+            cy="50%"
+            r="50"
+            />
+    <line class="tickOne" x1="50%" y1="19%" x2="50%" y2="20%" stroke-linecap="round"/>
+    <line class="tickTwo" x1="80%" y1="50%" x2="81%" y2="50%" stroke-linecap="round"/>
+    <line class="tickThree" x1="50%" y1="80%" x2="50%" y2="81%" stroke-linecap="round"/>
+    <line class="tickFour" x1="19%" y1="50%" x2="20%" y2="50%" stroke-linecap="round"/>
+    <line class="hourHand" x1="50%" y1="50%" x2="50%" y2="25%" stroke-linecap="round">
+      <animatetransform attributeName="transform"
+               attributeType="XML"
+               dur="43200s"
+               repeatCount="indefinite"
+               type="rotate"
+               />
+    </line>
+    <line class="minuteHand" x1="50%" y1="50%" x2="50%" y2="21%" stroke-linecap="round">
+      <animatetransform attributeName="transform"
+               attributeType="XML"
+               dur="3600s"
+               repeatCount="indefinite"
+               type="rotate"
+               />
+    </line>
+    <line class="secondHand" x1="50%" y1="50%" x2="50%" y2="19%" stroke-linecap="round">
+      <animatetransform attributeName="transform"
+               attributeType="XML"
+               dur="60s"
+               repeatCount="indefinite"
+               type="rotate"
+               />
+    </line>
+    <circle class="innerDial" cx="50%" cy="50%" r="2"/>
+  </svg>
+</body>
