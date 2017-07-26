@@ -1,0 +1,34 @@
+body {
+  background-color: #263238;
+  height: 100%;
+  width: 100%;
+}
+.hourHand {
+  stroke: #F78C6C;
+  stroke-width: 2;
+}
+.minuteHand {
+  stroke: #F78C6C;
+  stroke-width: 2;
+}
+.secondHand {
+  stroke: #8F5F52;
+  stroke-width: 1;
+}
+.outerRim {
+  fill: transparent;
+  stroke: #F78C6C;
+  stroke-width: 1;
+}
+.innerDial {
+  fill: #222d32;
+  stroke: #F78C6C;
+  stroke-width: 1;
+}
+.tickOne,
+.tickTwo,
+.tickThree,
+.tickFour {
+  stroke: #8F5F52;
+  stroke-width: 1;
+}
