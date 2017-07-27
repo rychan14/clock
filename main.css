@@ -1,10 +1,14 @@
 body {
   background-color: #263238;
+  position: relative;
 }
 svg {
   animation: 0.5s fadeIn;
-  max-height: 500px;
+  left: 50%;
   opacity: 1;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .hourHand {
   stroke: #F78C6C;
